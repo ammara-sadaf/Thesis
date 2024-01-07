@@ -65,14 +65,15 @@ navigate to the 'lstm_single_stimestp.ipynb' file and run each cell of the code,
 
 
 ## Parameters
-* n_hidden_dim -> the dimension of the LSTM hidden layer
+* n_hidden_dim -> (we set hidden dimension to 200)
 
-* n_features -> the number of input features for the drilling data
+* n_features -> (the number of input features for the drilling data is 8)
 
-* n_layers -> number of LSTM layers
+* n_layers -> (the number of LSTM layers is 1)
 
-* dropout -> dropout layer
-* proj_layer -> the projection layer that maps every timestep hidden dimension to final prediction (in our case is 1)
+* dropout -> (dropout layer is 0.1)
+  
+* proj_layer -> the projection layer that maps every timestep hidden dimension to final prediction (in this case is 1)
 
 
 ## LSTM multi timestep
@@ -82,11 +83,15 @@ navigate to the 'lstm_multitimestep.ipynb' file and run each cell of the code, e
 
 
 ## Parameters
-* n_hidden_dim -> the dimension of the LSTM hidden layer
-* n_features -> the number of input features for the drilling data
-* n_layers -> number of LSTM layers
-* dropout -> dropout layer
-proj_layer -> the projection layer that maps every timestep hidden dimension to final prediction (in our case 1)
+* n_hidden_dim -> (we set hidden dimension to 200)
+
+* n_features -> (the number of input features for the drilling data is 8)
+
+* n_layers -> (the number of LSTM layers is 1)
+
+* dropout -> (dropout layer is 0.1)
+  
+* proj_layer -> the projection layer that maps every timestep hidden dimension to final prediction (in this case is 1)
 
 
 ## VISUALIZATION
